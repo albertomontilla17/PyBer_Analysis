@@ -4,29 +4,25 @@ Analyze the ride-sharing data by city type.
 ## Overview of the Project
 Using Python skills and knowledge of Pandas, create a summary DataFrame of the ride-sharing data by city type. Then, using Pandas and Matplotlib, create a multiple-line graph that shows the total weekly fares for each city type. Finally, summarize a written report of how the data differs by city type and how those differences can be used by decision-makers at PyBer.
 
-Carry out the following two technical analysis and a written report to present the results. Note that the 'city type' is refered as Urban, Suburban, and Rural.
-1. A ride-sharing summary DataFrame by city type
-2. A multiple-line chart of total fares for each city type
-3. A written report for the PyBer analysis 
-
 ## Results
   Based on the two technical analysis, we can infer below information.
   
-  1. The ride-sharing summary DataFrame by city type: The below summary DataFrame provides; the number of Total Rides, the number of Total Drivers, the Total Fares, the Average Fare per Ride, and the Average Fare per Driver for each city type.
+- The ride-sharing summary DataFrame by city type: The below summary DataFrame provides; the number of Total Rides, the number of Total Drivers, the Total Fares, the Average Fare per Ride, and the Average Fare per Driver for each city type.
   
       ![](https://github.com/albertomontilla17/PyBer_Analysis/blob/main/Analysis/PyBer_fare_summary_dataframe.png)
      
-  - Total Rides column shows that total number of rides in Urban is 1,625, which is 2.6 times more compared to that of  Surburban city type, and 13 times more of Rural city type.
-  - Total Drivers column shows that total Driver count in Urban is 2,405, which is 4.9 times more compared to that of  Surburban city type, and 30.83 times more of Rural city type.
-  - The order of Totral Fares from the highest to lowest is proportionate to the number of Total Rides among Urban, Surburban, and Rural area.
-  - The Average Fare per Ride in Rural is $34.62, which is 1.1 times more compared to that of Suburban, and 1.4 times more of Urban.
-  - The Average Fare per Driver in Rural is $55.49, which is 1.4 times more compared to that of Suburban, and 3.3 times more of Urban.
-  2. A multiple-line chart of total fares for each city type provides the trend of Total Fares ($USD) of each City Type plotted with Date as X-axis. Also, the chart displays the result between the beginning of January to the end of April.
+  + Total Rides column shows that total number of rides in Urban is 1,625, which is 2.6 times more compared to that of  Surburban city type, and 13 times more of Rural city type.
+  + Total Drivers column shows that total Driver count in Urban is 2,405, which is 4.9 times more compared to that of  Surburban city type, and 30.83 times more of Rural city type.
+  + The order of Totral Fares from the highest to lowest is proportionate to the number of Total Rides among Urban, Surburban, and Rural area.
+  + The Average Fare per Ride in Rural is $34.62, which is 1.1 times more compared to that of Suburban, and 1.4 times more of Urban.
+  +The Average Fare per Driver in Rural is $55.49, which is 1.4 times more compared to that of Suburban, and 3.3 times more of Urban.
+
+- A multiple-line chart of total fares for each city type provides the trend of Total Fares ($USD) of each City Type plotted with Date as X-axis. Also, the chart displays the result between the beginning of January to the end of April.
   
       ![](https://github.com/albertomontilla17/PyBer_Analysis/blob/main/Analysis/PyBer_fare_summary.png)
   
-  - While, Rural city type Total Fare line chart does not fractuate more than the range between 0 to 500, both Urban and Suburban city types have its peak around the end of February. 
-  - Also, both Urban and Suburban show huge dip in their Total Fare in the beggining of April.
+  + While, Rural city type Total Fare line chart does not fractuate more than the range between 0 to 500, both Urban and Suburban city types have its peak around the end of February. 
+  + Also, both Urban and Suburban show huge dip in their Total Fare in the beggining of April.
   
 ## Summary
    Based on the results, we can draw followings three business recommendations to the CEO.
